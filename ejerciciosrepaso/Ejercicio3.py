@@ -10,3 +10,8 @@ def random_list (n):
         count = count + 1
 
     return list
+
+list_size = input ("De cuántos números quiere la lista?")
+list_result = random_list(int (list_size))
+
+print (list_result)
