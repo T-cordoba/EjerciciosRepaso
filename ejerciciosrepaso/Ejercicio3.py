@@ -1,6 +1,7 @@
 ## Crear un programa que genere una lista de números aleatorios y los imprima en pantalla
 
 
+from random import randint
 def random_list (n):
     count = 0
     list = []
