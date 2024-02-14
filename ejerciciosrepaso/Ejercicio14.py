@@ -10,4 +10,4 @@ def arith_average(l):
 
 result=arith_average(l)
 
-print(result)
+print(f"La media aritmetica de la lista {l} es {round(result,2)}")
