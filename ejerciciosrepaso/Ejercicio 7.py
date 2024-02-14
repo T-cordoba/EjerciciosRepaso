@@ -14,3 +14,7 @@ def find_number (list):
             highest_number = int(i)
 
     return ("El número mayor es ", highest_number, " y el número menor es ", lowest_number)
+
+values = input("Ingrese una lista separada por comas")
+result = find_numbers(values)
+print (result)
