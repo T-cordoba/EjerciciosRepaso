@@ -6,7 +6,7 @@ def even_or_odd(n):
     else:
         return f"El numero {n} es impar"
 
-num=int(input("Ingrese un número"))
+num=int(input("Ingrese un número "))
 result=even_or_odd(num)
 
 print(result)
