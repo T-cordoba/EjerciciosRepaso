@@ -7,3 +7,5 @@ def circle_area (r):
 
 ask_radius = int(input("Ingrese el radio del circulo "))
 area_result = circle_area(ask_radius)
+
+print(f"El area del circulo es de {area_result} unidades cuadradas")
